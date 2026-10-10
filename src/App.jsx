@@ -1,0 +1,26 @@
+import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
+import About from './components/About.jsx'
+import Services from './components/Services.jsx'
+import Gallery from './components/Gallery.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
+
+// The whole page. Sections appear in this order from top to bottom.
+function App() {
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+export default App
